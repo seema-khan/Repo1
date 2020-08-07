@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24753" started-at="2020-08-06T14:48:28Z" finished-at="2020-08-06T14:48:53Z">
+  <suite name="Suite" duration-ms="17722" started-at="2020-08-07T02:15:52Z" finished-at="2020-08-07T02:16:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24753" started-at="2020-08-06T14:48:28Z" finished-at="2020-08-06T14:48:53Z">
+    <test name="Test" duration-ms="17722" started-at="2020-08-07T02:15:52Z" finished-at="2020-08-07T02:16:10Z">
       <class name="demo.Test3">
-        <test-method status="PASS" signature="mainTest()[pri:0, instance:demo.Test3@33ce2c]" name="mainTest" duration-ms="24727" started-at="2020-08-06T10:48:28Z" finished-at="2020-08-06T10:48:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.Test3@9d209a]" name="setup" is-config="true" duration-ms="6661" started-at="2020-08-06T22:15:52Z" finished-at="2020-08-06T22:15:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainTest -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:demo.Test3@9d209a]" name="Test1" duration-ms="5216" started-at="2020-08-06T22:15:59Z" finished-at="2020-08-06T22:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:demo.Test3@9d209a]" name="Test2" duration-ms="4942" started-at="2020-08-06T22:16:04Z" finished-at="2020-08-06T22:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.Test3@9d209a]" name="tearDown" is-config="true" duration-ms="888" started-at="2020-08-06T22:16:09Z" finished-at="2020-08-06T22:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- demo.Test3 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
